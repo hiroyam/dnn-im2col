@@ -1,0 +1,16 @@
+#include "framework/readubyte.hpp"
+#include "framework/blas.hpp"
+#include "framework/parser.hpp"
+#include "framework/loss.hpp"
+#include "framework/optimizer.hpp"
+#include "framework/activation.hpp"
+
+#include "framework/layers/layer.hpp"
+#include "framework/layers/convolutional_layer.hpp"
+#include "framework/layers/pooling_layer.hpp"
+#include "framework/layers/fully_connected_layer.hpp"
+#include "framework/layers/activation_layer.hpp"
+#include "framework/layers/softmax_layer.hpp"
+#include "framework/layers/relocation_layer.hpp"
+
+#include "framework/network.hpp"

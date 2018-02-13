@@ -1,11 +1,13 @@
 # dnn-im2col
 
+DNN framework using im2col
+
+[![Build Status](https://travis-ci.org/hiroyam/dnn-im2col.svg?branch=master)](https://travis-ci.org/hiroyam/dnn-im2col)
+
 --- 
 
-## これは何？
+#### これは何？
 
-[cuDNNで採用されているIm2Colの手法](https://arxiv.org/pdf/1410.0759.pdf) を実験するために書いたC++で書いたミニマルなDNNフレームワークです。 
-
-畳み込みを密行列の積（BLASのGEMM）に変換して高速化しているのが特徴です。 
-
-BLASをOpenBLASやcuBLAS、pzBLASなどに置き換えると高速化できます。 
+C++で書いたミニマルなDNNフレームワークです。 
+[cuDNNで採用されているIm2Colの手法](https://arxiv.org/pdf/1410.0759.pdf) を実装しました。 
+畳み込みを密行列の積に変換しているのが特徴です。BLASをcuBLASなどに置換すると高速化できます。

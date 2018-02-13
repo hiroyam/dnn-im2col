@@ -18,14 +18,4 @@ run:
 main:
 	$(CXX) src/main.cpp \
 		-o $(TARGET) \
-		-std=c++1z -Wall -O3
-
-# 	# use intel mkl
-# 	$(CXX) src/main.cpp \
-# 		-o $(TARGET) \
-# 		-std=c++1z -Wall -O3 \
-# 		-m64 -I${MKLROOT}/include \
-# 		-L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_rt -lpthread -lm -ldl
-
-
-
+		-std=c++11 -Wall -O3

@@ -8,8 +8,8 @@
 #include "util.hpp"
 #include "framework.hpp"
 
-using namespace di;
-using namespace di::activation;
+using namespace cc;
+using namespace cc::activation;
 
 int main(int argc, char *argv[]) {
     network_t nn;

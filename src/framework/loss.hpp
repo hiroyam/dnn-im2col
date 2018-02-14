@@ -1,5 +1,5 @@
 
-namespace di {
+namespace cc {
 
 class cross_entropy_multiclass {
  public:

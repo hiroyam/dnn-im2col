@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 class fully_connected_layer : public layer_t {
 public:
     vec_t weight;

@@ -1,5 +1,5 @@
 
-namespace di {
+namespace cc {
 class layer_t {
 public:
     std::shared_ptr<layer_t> next_layer;

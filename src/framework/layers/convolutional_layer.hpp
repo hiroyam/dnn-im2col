@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 class convolutional_layer : public layer_t {
 public:
     size_t in_width;

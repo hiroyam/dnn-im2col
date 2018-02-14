@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 
 class relocation_layer : public layer_t {
 public:

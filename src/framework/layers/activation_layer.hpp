@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 
 template<typename Activation>
 class activation_layer : public layer_t {

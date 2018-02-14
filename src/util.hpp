@@ -15,7 +15,7 @@
 #include <random>
 
 
-namespace di {
+namespace cc {
 /********************************************************************************
  *
  * config
@@ -813,4 +813,4 @@ inline image<T> vec2image(const vec_t &vec, const index3d<size_t> &maps) {
 //     fclose(f);
 // }
 
-} // namespace di
+} // namespace cc

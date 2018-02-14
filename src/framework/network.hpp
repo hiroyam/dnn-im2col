@@ -1,6 +1,6 @@
 #pragma once
 
-namespace di {
+namespace cc {
 class network_t {
 public:
     std::shared_ptr<layer_t> head_layer;

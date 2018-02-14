@@ -1,6 +1,6 @@
 #pragma once
 
-namespace di {
+namespace cc {
 class optimizer {
 public:
     virtual void update(const vec_t &dw, vec_t &w) = 0;
@@ -19,4 +19,4 @@ public:
     float_t alpha;
     float_t lambda;
 };
-} // namespace di
+} // namespace cc

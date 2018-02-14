@@ -1,6 +1,6 @@
 #pragma once
 
-namespace di {
+namespace cc {
 namespace activation {
 
 class function {
@@ -71,4 +71,4 @@ public:
 };
 
 } // namespace activation
-} // namespace di
+} // namespace cc

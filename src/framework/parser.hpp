@@ -1,6 +1,6 @@
 #pragma once
 
-namespace di {
+namespace cc {
 
 void parse_mnist(const char *fn_images, std::vector<vec_t>   &images,
                  const char *fn_labels, std::vector<label_t> &labels) {

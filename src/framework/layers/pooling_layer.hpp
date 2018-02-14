@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 
 class pooling_layer : public layer_t {
 public:

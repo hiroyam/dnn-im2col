@@ -1,4 +1,4 @@
-namespace di {
+namespace cc {
 void axpy(const int      N,
           const float_t  alpha,
           const float_t *x,
@@ -170,4 +170,4 @@ void gemm(char           major,
         }
     }
 }
-} // namespace di
+} // namespace cc

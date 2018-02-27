@@ -11,13 +11,15 @@ public:
         output.clear();
         output.resize(batch_size * output_channel);
 
+        float_t save_exp_overflow = *std::max_element(input.begin(), input.end());
+
         for (size_t n = 0; n < batch_size; n++) {
             float_t denom = 0.0;
             for (size_t c = 0; c < input_channel; c++) {
-                denom += std::exp(input[c + n * input_channel]);
+                denom += std::exp(input[c + n * input_channel] - save_exp_overflow);
             }
             for (size_t c = 0; c < input_channel; c++) {
-                output[c + n * input_channel] = std::exp(input[c + n * input_channel]) / denom;
+                output[c + n * input_channel] = std::exp(input[c + n * input_channel] - save_exp_overflow) / denom;
             }
         }
 
